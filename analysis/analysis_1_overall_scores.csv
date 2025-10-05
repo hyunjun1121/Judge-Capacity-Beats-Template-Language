@@ -1,0 +1,5 @@
+Method,Mean,Std,Min,Max,Languages
+Apertus-Eng,0.068,0.014,0.041,0.097,16
+Apertus-Trans,0.354,0.193,0.005,0.667,16
+GPT-Trans,0.631,0.241,0.090,0.833,16
+GPT-Eng,0.811,0.017,0.776,0.838,16
