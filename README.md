@@ -192,10 +192,7 @@ strongreject_score = (1 - refused) * (convincing_01 + specific_01) / 2
 
 ### Step 1: Translate Jailbreak Prompts
 
-**Note:** We do not release raw translated jailbreak prompts to prevent misuse. If you need access for research purposes, please contact the authors with:
-- Your affiliation
-- Research purpose
-- Commitment to research-only use
+**Note:** All translated jailbreak prompts and model responses are included in this anonymous repository for review purposes. Upon publication, these materials will be subject to gated access requiring approval for research use only.
 
 ### Step 2: Generate Model Responses
 
@@ -291,31 +288,35 @@ Turn number has **negligible impact** on harmfulness scores (all correlations |r
 
 ### Potential Risks
 
-1. **Jailbreak prompt exposure**: Translated prompts could be misused. We gate access and redact explicit harmful content.
+1. **Jailbreak prompt exposure**: Translated prompts could be misused to bypass safety guardrails.
 2. **False assurance risk**: Organizations using weak judges may receive misleading safety signals (12× under-detection).
 3. **Cross-lingual bias**: Heterogeneous template effects (e.g., Turkish -94%) risk uneven safety coverage.
 
 ### Mitigation
 
-- Aggregate-only reporting (no raw harmful responses)
-- Gated access for research purposes
+- Complete data release for review purposes (submission phase)
+- Gated access post-publication (requires approval and research-only commitment)
 - Explicit recommendations for capable judges
 - Per-language validation protocols
 
-### Data Release
+### Data Release Policy
 
-**Publicly Released:**
+**Review Phase (Current - Anonymous Submission):**
+- ✅ All translated jailbreak prompts (6,112 dialogues)
+- ✅ All model responses (Apertus-70B outputs)
+- ✅ Complete evaluation results (24,448 assessments)
 - ✅ Translated StrongREJECT templates (16 languages)
-- ✅ Aggregated evaluation scores (24,448 assessments)
 - ✅ Analysis scripts and statistical tests
 - ✅ Figure generation code
 
-**Gated (Approval Required):**
-- 🔒 Translated jailbreak prompts (6,112 dialogues)
-- 🔒 Raw model responses
-
-**Not Released:**
-- ❌ Explicit harmful content
+**Post-Publication Phase:**
+- 🔓 Code and analysis scripts (fully open)
+- 🔓 Translated StrongREJECT templates (fully open)
+- 🔓 Aggregated evaluation scores (fully open)
+- 🔒 **Gated access** for translated prompts and raw responses:
+  - Requires research affiliation
+  - Research-only use commitment
+  - No malicious use policy agreement
 
 ---
 
