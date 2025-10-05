@@ -4,10 +4,6 @@
 
 This repository contains code, data, and evaluation templates for our ACL 2025 paper:
 
-> **[Paper Title]**
-> Anonymous Authors
-
-**Paper:** [Link will be added upon publication]
 
 ---
 
@@ -334,34 +330,6 @@ Turn number has **negligible impact** on harmfulness scores (all correlations |r
 - Apertus-70B: Apache 2.0 ([HuggingFace](https://huggingface.co/swiss-ai/Apertus-70B-2509))
 - StrongREJECT: CC BY 4.0
 - RabakBench Translation Template: MIT ([GitHub](https://github.com/govtech-responsibleai/rabakbench))
-
----
-
-## 📚 Citation
-
-If you use this code or data, please cite:
-
-```bibtex
-@inproceedings{anonymous2025multilingual,
-  title={[Paper Title]},
-  author={Anonymous},
-  booktitle={Proceedings of ACL 2025},
-  year={2025}
-}
-```
-
----
-
-## 🤝 Contact
-
-For questions, access requests, or collaboration:
-- **GitHub Issues:** [Link]
-- **Email:** [Will be added upon de-anonymization]
-
-**Access Requests:** If you need gated data (translated prompts, raw responses) for research purposes, please include:
-1. Your name and affiliation
-2. Intended research use
-3. Commitment to research-only terms (no malicious use)
 
 ---
 
